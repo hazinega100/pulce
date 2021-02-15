@@ -1,0 +1,47 @@
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 50%;
+        }
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            button {
+                margin-top: 5px;
+                width: 140px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 26px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 15px;
+            text-align: center;
+        }
+        &__wrapper {
+            align-items: center;
+        }
+        &__icons {
+            width: 120px;
+            margin-top: 10px;
+            flex-direction: column;
+        }
+        .button_main {
+            width: 200px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
