@@ -44,4 +44,37 @@
             align-items: center;
         }
     }
+    .consultation {
+        .title_left {
+            font-size: 25px;
+            padding-left: 30px;
+        }
+        &__descr {
+            padding-left: 30px;
+        }
+        form {
+            padding-left: 30px;
+        }
+    }
+    .carousel {
+        display: none;
+    }
+    .catalog {
+        h2 {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        &__tabs {
+            flex-direction: column;
+        }
+        &__content {
+        }
+    }
+    .reviews {
+        h2 {
+            font-size: 20px;
+        }
+        &__wrapper {
+        }
+    }
 }

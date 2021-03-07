@@ -10,7 +10,16 @@ $(document).ready(function(){
                     dots: true,
                     arrows: false
                 }
-            }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  dots: true,
+                  arrows: false
+                }
+              }
         ]
       });
 
